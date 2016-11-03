@@ -5,5 +5,6 @@ use_frameworks!
 target 'TravisCITest' do
  
     pod 'Google/SignIn'
+    pod 'DKImagePickerController','3.4.0'
 
 end
