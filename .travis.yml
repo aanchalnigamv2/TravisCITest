@@ -9,10 +9,10 @@ language: objective-c
 
 osx_image: xcode8
 
-xcode_project: TravisCITest.xcodeproj
+xcode_workspace: TravisCITest.xcworkspace
 
 xcode_scheme: TravisCITest
 
 xcode_sdk: iphonesimulator10.0
 
-script: xcodebuild -project TravisCITest.xcodeproj -scheme TravisCITest -sdk iphonesimulator10.0
+script: xcodebuild -workspace TravisCITest.xcworkspace -scheme TravisCITest -sdk iphonesimulator10.0
