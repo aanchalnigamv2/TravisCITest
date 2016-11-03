@@ -15,4 +15,4 @@ xcode_scheme: TravisCITest
 
 xcode_sdk: iphonesimulator10.0
 
-script: xcodebuild -project TravisCITest.xcodeproj -scheme TravisCITest -sdk iphonesimulator10
+script: xcodebuild -project TravisCITest.xcodeproj -scheme TravisCITest -sdk iphonesimulator10.0
