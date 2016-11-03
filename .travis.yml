@@ -1,0 +1,19 @@
+# .travis.yml
+# XcodeTravis
+#
+# Created by V2Solutions on 16/03/15.
+# Copyright (c) 2014 ___v2Tech Ventures___. All rights reserved.
+
+
+language: objective-c
+
+osx_image: xcode7.2
+
+xcode_workspace: ./TravisCITest/TravisCITest.xcodeproj
+
+xcode_scheme: TravisCITest
+
+xcode_sdk: iphonesimulator9.2
+
+script:
+- xcodebuild -workspace "./TravisCITest/TravisCITest.xcodeproj" -scheme $TRAVIS_XCODE_SCHEME -sdk $TRAVIS_XCODE_SDK -destination 'name=iPhone 6'
