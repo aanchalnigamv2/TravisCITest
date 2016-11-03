@@ -1,0 +1,18 @@
+# .travis.yml
+# XcodeTravis
+#
+# Created by V2Solutions on 16/03/15.
+# Copyright (c) 2014 ___v2Tech Ventures___. All rights reserved.
+
+
+language: objective-c
+
+osx_image: xcode8
+
+xcode_workspace: TravisCITest.xcworkspace
+
+xcode_scheme: TravisCITest
+
+xcode_sdk: iphonesimulator10.0
+
+script: xcodebuild -workspace TravisCITest.xcworkspace -scheme TravisCITest -sdk iphonesimulator10.0
