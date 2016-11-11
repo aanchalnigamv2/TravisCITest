@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FBAnnotationClusteringSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GTMOAuth2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,7 +29,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>M13Checkbox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TravisCITest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +52,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1644CC30F9D67C838688F2574F7FECEE</key>
+		<key>06B86E07A9CCB135550D1FC411BC5B0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>198F3E1AB419A1347FF4C7879C8BCDB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39A204FCB78FFA83E996C40FF3B4AC11</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>423C10F04A172BB11C7A3702F8F09B90</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -48,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>7D04535608058A2FABC0D16935868FB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>99BEA854C3B30F19912804F8704CA01F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -4,6 +4,7 @@ PODS:
     - DKImagePickerController/ImageManager (= 3.4.0)
   - DKImagePickerController/Camera (3.4.0)
   - DKImagePickerController/ImageManager (3.4.0)
+  - FBAnnotationClusteringSwift (1.0.1)
   - FirebaseAnalytics (3.5.1):
     - FirebaseCore (~> 3.4)
     - FirebaseInstanceID (~> 1.0)
@@ -46,13 +47,23 @@ PODS:
   - GTMSessionFetcher/Core (1.1.7)
   - GTMSessionFetcher/Full (1.1.7):
     - GTMSessionFetcher/Core (= 1.1.7)
+  - M13Checkbox (3.1.1)
+  - Realm (2.0.3):
+    - Realm/Headers (= 2.0.3)
+  - Realm/Headers (2.0.3)
+  - RealmSwift (2.0.3):
+    - Realm (= 2.0.3)
 
 DEPENDENCIES:
   - DKImagePickerController (= 3.4.0)
+  - FBAnnotationClusteringSwift
   - Google/SignIn
+  - M13Checkbox
+  - RealmSwift
 
 SPEC CHECKSUMS:
   DKImagePickerController: 5e64adbe34c27cc63bc38cccdaf3a40c3b4f729c
+  FBAnnotationClusteringSwift: a1f4c07f5472b13acd69de04c61e68e2d7daaad3
   FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
   FirebaseCore: d0ed25f27b6f9158eccc439f1be6f92e81207e28
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
@@ -64,7 +75,10 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
   GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
+  M13Checkbox: 64a49ded40e7047e0bef255b73c8c533b7c66bdd
+  Realm: 5f008bfe3c8c47142eddfc30b8c1584cde22db24
+  RealmSwift: 5afb451f65b682242f272dbb52d5c6f6e343c980
 
-PODFILE CHECKSUM: 67ed9e178a79c249d3875b71ca9b3a445e636bd7
+PODFILE CHECKSUM: c169b8d2165bda00537d2da9f398829fda6273a3
 
 COCOAPODS: 1.1.1

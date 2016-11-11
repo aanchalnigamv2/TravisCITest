@@ -5,9 +5,9 @@ use_frameworks!
 target 'TravisCITest' do
  
     pod 'Google/SignIn'
-    pod 'DKImagePickerController','3.4.0'
     pod 'FBAnnotationClusteringSwift'
     pod 'RealmSwift'
     pod 'M13Checkbox'
+    pod 'DKImagePickerController'
 
 end
